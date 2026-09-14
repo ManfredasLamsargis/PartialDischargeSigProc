@@ -1,6 +1,6 @@
 scriptDir = fileparts(mfilename('fullpath'));
 
-psFilePath = fullfile(scriptDir, '..//Data//20260528_1c_EFZ_2c_50Hz_3_logo50_32kV_antDOBB.mat');
+psFilePath = fullfile(scriptDir, '..//..//Data//20260528_1c_EFZ_2c_50Hz_3_logo50_32kV_antDOBB.mat');
 if ~isfile(psFilePath)
     error('expected picoscope oscilloscope datafile not found %s', psFile);
 end
